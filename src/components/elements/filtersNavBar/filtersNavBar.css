@@ -1,0 +1,20 @@
+.filters-container{
+    display: flex;
+    padding: 30px 43px;
+    color: #fff;
+    background-color: #383535;
+}
+.filters-left{
+    display: flex;
+    flex: 6;
+}
+.filters-right{
+    display: flex;
+    float: right;
+}
+.filters-item{
+    margin-right: 44px;
+}
+.right{
+    margin-right: 0;
+}

@@ -1,0 +1,27 @@
+import React from "react";
+import { ReactDOM } from "react";
+import LocationButton from "../location-button/LocationButton";
+import "./ride.css";
+
+function Ride(props) {
+    console.log(props);
+  return (
+    <div className="ride">
+        <div className="ride-image">
+            <img src="https://picsum.photos/200" alt="" className="ride-image"/>
+        </div>
+        <div className="ride-data">
+            <div>Ride Id: {props.id}</div>
+            <div>Origin Station: {props.os_code}</div>
+            <div>station_path: [ {props.s_path} ]</div>
+            <div>Date: {props.date}</div>
+            <div>Distance: 0</div>
+        </div>
+        <div className="ride-location">
+            <div><LocationButton name={props.city}/></div><div><LocationButton name={props.state}/></div>
+        </div>
+    </div>
+  )
+}
+
+export default Ride

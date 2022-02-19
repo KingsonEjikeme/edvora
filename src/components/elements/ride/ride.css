@@ -1,0 +1,30 @@
+.ride{
+   
+    margin: auto 43px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #171717;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 25px;
+}
+
+.ride-image{
+    height: 148px;
+    width: 296px;
+    object-fit: cover;
+    margin-right: 45px;
+}
+
+.ride-data{
+    flex: 4;
+    flex-direction: column;
+    line-height: 1.96;
+    color: #fff;
+}
+
+.ride-location{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}

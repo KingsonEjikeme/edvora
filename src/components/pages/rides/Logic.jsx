@@ -1,4 +1,3 @@
-import { useState } from "react";
 import rideData from "../../data/rideData";
 import userData from "../../data/userData";
 const userLocation = userData.station_code;

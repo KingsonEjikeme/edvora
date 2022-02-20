@@ -1,4 +1,3 @@
-import rideData from "../../data/rideData";
 import Ride from "../../elements/ride/Ride";
 import { upComingArray } from "./Logic";
 import userData from "../../data/userData";

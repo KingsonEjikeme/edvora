@@ -7,7 +7,7 @@ import {closest, nearestArray} from "./Logic";
 
 
 function NearestRides() {
-  const [distance, setDistance] = useState(0);
+ 
   
  
   return (

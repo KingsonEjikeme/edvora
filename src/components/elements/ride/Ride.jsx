@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM } from "react";
 import LocationButton from "../location-button/LocationButton";
 import "./ride.css";
 

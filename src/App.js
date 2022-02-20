@@ -1,7 +1,5 @@
 import './App.css';
 import TopContainer from './components/elements/top-container/TopContainer';
-import Homepage from './components/pages/rides/NearestRides';
-import rideData from './components/data/rideData';
 import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom';
 import FiltersNavBar from './components/elements/filtersNavBar/FiltersNavBar';
 import NearestRides from './components/pages/rides/NearestRides';
@@ -11,8 +9,7 @@ import userData from './components/data/userData';
 import FilterPopUp from './components/elements/filter-popup/FilterPopUp';
 import { useState } from 'react';
 function App() {
-  const ride_data = rideData;
-  const user_data = userData;
+
   const [filterState, setFilterState] = useState(true);
   return (
     <Router>

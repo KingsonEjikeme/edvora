@@ -1,4 +1,3 @@
-import rideData from "../../data/rideData";
 import Ride from "../../elements/ride/Ride";
 import "./rides.css";
 import userData from "../../data/userData";

@@ -11,12 +11,12 @@ import { useState } from 'react';
 function App() {
 
   const [filterState, setFilterState] = useState(false);
-  
+
   return (
     <Router>
       <TopContainer
         name={userData.name}
-        image="https://picsum.photos/200"
+        image="https://picsum.photos/300"
       />
       <FiltersNavBar filterState={filterState} setFilterState={setFilterState} />
       <FilterPopUp filterState={filterState}/>

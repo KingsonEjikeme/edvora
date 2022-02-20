@@ -38,7 +38,7 @@
 }
 @media screen and (max-width: 650px) {
     .ride-data{
-        font-size: 1.8vw;
+        font-size: 10.2px;
         font-weight: 500;
         font-stretch: expanded;
     }

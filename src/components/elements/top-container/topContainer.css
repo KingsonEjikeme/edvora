@@ -32,3 +32,10 @@
     width: 44px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 800px) {
+    .top-profile-name{
+        font-size: 15px;
+        font-weight: 700;
+    }
+}

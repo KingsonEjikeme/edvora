@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 800px) {
     .filters-item{
-        font-size: 1.9vw;
+        font-size: 10px;
         font-weight: 700;
         text-align: center;
     }

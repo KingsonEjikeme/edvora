@@ -11,6 +11,7 @@
 .filters-right{
     display: flex;
     float: right;
+    cursor: pointer;
 }
 .filters-item{
     margin-right: 44px;

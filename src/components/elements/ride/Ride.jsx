@@ -4,7 +4,7 @@ import LocationButton from "../location-button/LocationButton";
 import "./ride.css";
 
 function Ride(props) {
-    console.log(props);
+    
   return (
     <div className="ride">
         <div className="ride-image">
@@ -15,7 +15,7 @@ function Ride(props) {
             <div>Origin Station: {props.os_code}</div>
             <div>station_path: [ {props.s_path} ]</div>
             <div>Date: {props.date}</div>
-            <div>Distance: 0</div>
+            <div>Distance: {props.distance}</div>
         </div>
         <div className="ride-location">
             <div><LocationButton name={props.city}/></div><div><LocationButton name={props.state}/></div>

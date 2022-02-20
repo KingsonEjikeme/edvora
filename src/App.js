@@ -10,7 +10,8 @@ import FilterPopUp from './components/elements/filter-popup/FilterPopUp';
 import { useState } from 'react';
 function App() {
 
-  const [filterState, setFilterState] = useState(true);
+  const [filterState, setFilterState] = useState(false);
+  
   return (
     <Router>
       <TopContainer

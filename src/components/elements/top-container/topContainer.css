@@ -38,4 +38,14 @@
         font-size: 15px;
         font-weight: 700;
     }
+    .top-profile-name{
+        margin-right: 5px;
+    }
+    .top-profile-image{
+        right: 10px;
+        margin-right: 0;
+    }
+    .top-title{
+        font-size: 30px;
+    }
 }

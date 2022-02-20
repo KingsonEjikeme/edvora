@@ -1,7 +1,9 @@
+import { useState } from "react";
 import rideData from "../../data/rideData";
 import userData from "../../data/userData";
 const userLocation = userData.station_code;
 const ride_data = rideData;
+
 
 const closest = (arr, num)=>{
     return arr.reduce((acc,val)=>{

@@ -1,7 +1,6 @@
 import "./topContainer.css";
 
 function TopContainer(props) {
-  console.log(props.name);
  
   return (
     <div className="top-container">
@@ -10,7 +9,7 @@ function TopContainer(props) {
         <div className="top-profile">
         <div className="top-profile-name">{props.name}</div>
         <div className="top-profile-image">
-            <img src="https://picsum.photos/200" alt="" className="top-profile-image" />
+            <img src={props.image} alt="" className="top-profile-image" />
         </div>
         </div>
     </div>

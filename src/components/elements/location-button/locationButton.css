@@ -1,14 +1,29 @@
 .location-button{
     height: 23px;
-    width: max-content;
+    width:auto;
     border-radius: 16px;
     background-color: #000;
     color: #fff;
-    font-size: 12px;
+    font-size: 1.2vw;
     justify-content: center;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 4px;
     margin-left: 20px;
+}
+@media screen and (max-width: 650px) {
+    .location-button{
+        margin-top: 5px;
+        font-size: 1.5vw;
+        font-weight: 600;
+        font-stretch: expanded;
+        text-align: center;
+        justify-content: center;
+        padding-left:5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 0;
+    }
+
 }

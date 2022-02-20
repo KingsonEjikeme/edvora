@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import NearestRides from "../../pages/rides/NearestRides";
-import PastRides from "../../pages/rides/PastRides";
-import UpcomingRides from "../../pages/rides/UpcomingRides";
 import "./filtersNavBar.css";
 import {pastRidesArray, upComingArray} from "../../pages/rides/Logic";
 
-function FiltersNavBar() {
+function FiltersNavBar(props) {
+  const handleFilter =()=>{
+    console.log("I work!!");
+    props.setFilterState(!props.filterState)
+  }
   return (
     <div className="filters-navbar">
         <div className="filters-container">
@@ -26,8 +27,8 @@ function FiltersNavBar() {
                 </div>
               </Link>
             </div>
-            <div className="filters-right">
-                <div className="filters-item right"><i class="fas fa-filter"></i> Filter</div>
+            <div className="filters-right" onClick={handleFilter}>
+                <div className="filters-item right" ><i class="fas fa-filter"></i> Filter</div>
             </div>
         </div>
     </div>

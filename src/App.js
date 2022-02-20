@@ -8,13 +8,20 @@ import NearestRides from './components/pages/rides/NearestRides';
 import UpcomingRides from './components/pages/rides/UpcomingRides';
 import PastRides from './components/pages/rides/PastRides';
 import userData from './components/data/userData';
+import FilterPopUp from './components/elements/filter-popup/FilterPopUp';
+import { useState } from 'react';
 function App() {
   const ride_data = rideData;
   const user_data = userData;
+  const [filterState, setFilterState] = useState(true);
   return (
     <Router>
-      <TopContainer {...userData}/>
-      <FiltersNavBar/>
+      <TopContainer
+        name={userData.name}
+        image="https://picsum.photos/200"
+      />
+      <FiltersNavBar filterState={filterState} setFilterState={setFilterState} />
+      <FilterPopUp filterState={filterState}/>
       <Switch>
         <Route exact path="/">
           <NearestRides/>

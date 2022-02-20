@@ -1,0 +1,28 @@
+.filter-popup{
+    height: 190px;
+    width: 228px;
+    border-radius: 15px;
+    background-color: #131313;
+    padding: 30px;
+    position: absolute;
+    z-index: 999;
+    right: 43px;
+    top: 150px;
+}
+.state{
+    height: 37.5px;
+    width: 168.45px;
+    background-color: #232323;
+    width: 100%;
+    margin-top: 12.5px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 12.5px;
+}
+.caret{
+    float: right;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}

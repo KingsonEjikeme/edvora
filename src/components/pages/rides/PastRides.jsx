@@ -15,8 +15,8 @@ function PastRides() {
               s_path={oneRide.station_path.toString()}
               date={new Date(oneRide.date).toDateString({})}
               map_url={oneRide.map_url}
-              state={oneRide.state}
-              city={oneRide.city}
+              state="state"
+              city="city"
               distance={Math.abs(closest(oneRide.station_path, 40)-userData.station_code)}
               />
               ))}        

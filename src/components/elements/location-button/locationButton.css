@@ -11,6 +11,7 @@
     padding-right: 10px;
     padding-top: 4px;
     margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 @media screen and (max-width: 650px) {
     .location-button{

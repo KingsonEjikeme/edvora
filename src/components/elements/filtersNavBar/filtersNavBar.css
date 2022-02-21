@@ -3,10 +3,12 @@
     padding: 30px 43px;
     color: #fff;
     background-color: #383535;
+    font-family: verdana;
 }
 .filters-left{
     display: flex;
     flex: 6;
+    font-family: Verdana;
 }
 .filters-right{
     display: flex;
@@ -15,7 +17,8 @@
 }
 .filters-item{
     margin-right: 44px;
-    font-weight: 500;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .right{
     margin-right: 0;

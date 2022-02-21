@@ -11,7 +11,9 @@ import { useState } from 'react';
 function App() {
 
   const [filterState, setFilterState] = useState(false);
-
+  const [nearestActive, setNearestActive] = useState(false);
+  const [pastActive, setPastActive] = useState(false);
+  const [upcomingActive, setUpcomingActive] = useState(false);
   return (
     <Router>
       <TopContainer

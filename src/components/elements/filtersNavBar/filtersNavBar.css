@@ -18,7 +18,8 @@
 .filters-item{
     margin-right: 44px;
     font-weight: 900;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: #fff;
 }
 .right{
     margin-right: 0;
@@ -35,4 +36,13 @@
     text-decoration: underline;
     text-underline-offset: 6px;
     text-underline-position: below;
+}
+
+.selected{
+    background-color: red;
+    color: purple;
+}
+.filter-link{
+    text-decoration:"none";
+    color:"#fff";
 }

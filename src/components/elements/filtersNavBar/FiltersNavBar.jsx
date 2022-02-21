@@ -18,7 +18,8 @@ function FiltersNavBar(props) {
   const activeLinkStyle = {
     textDecorationLine:"underline",
     color:"#fff",
-    textUnderlineOffset: "6px"
+    textUnderlineOffset: "6px",
+    textDecorationThickness: "2px"
   }
   const handleLinkStyle =(a)=>{
     if (currentLocation===a){

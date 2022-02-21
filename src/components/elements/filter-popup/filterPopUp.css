@@ -1,6 +1,6 @@
 .filter-popup{
-    height: 190px;
-    width: 228px;
+    height: fit-content;
+    width: 20vw;
     border-radius: 15px;
     background-color: #131313;
     padding: 30px;
@@ -8,7 +8,7 @@
     z-index: 999;
     right: 43px;
     top: 150px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .state{
     height: 37.5px;

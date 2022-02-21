@@ -15,6 +15,8 @@ const closest = (arr, num)=>{
     
 }
 
+const allStates = rideData.map((singleRide)=>singleRide.state);
+const allCities = rideData.map((singleRide)=>singleRide.state);
 
 const nearestArray = ride_data.sort((a,b)=>{
   if(closest(a.station_path,userLocation) > closest(b.station_path,userLocation)){

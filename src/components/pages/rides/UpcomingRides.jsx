@@ -16,8 +16,8 @@ function UpcomingRides() {
               s_path={oneRide.station_path.toString()}
               date={new Date(oneRide.date).toDateString({})}
               map_url={oneRide.map_url}
-              state="state"
-              city="city"
+              state={oneRide.state}
+              city={oneRide.state}
               distance={Math.abs(closest(oneRide.station_path, 40)-userData.station_code)}
               />
               ))}        

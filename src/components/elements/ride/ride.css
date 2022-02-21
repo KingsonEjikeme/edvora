@@ -18,7 +18,7 @@
 }
 
 .ride-data{
-    flex: 5;
+    flex: 3;
     flex-direction: column;
     line-height: 1.96;
     color: #fff;
@@ -28,8 +28,7 @@
 .ride-location{
     display: flex;
     flex-direction: row;
-    float: right;
-    
+    float: right;    
 }
 @media screen and (max-width: 1080px) {
     .ride-data{
@@ -45,7 +44,7 @@
     .ride-location{
         display: flex;
         flex-direction: column;
-        float: right;
-        padding-left: 0;
+        padding-right: 30px;
+        width: fit-content;
     }
 }

@@ -26,3 +26,9 @@
     }
 
 }
+@media screen and (max-width: 540px) {
+    .location-button{
+        visibility:collapse;
+    }
+
+}

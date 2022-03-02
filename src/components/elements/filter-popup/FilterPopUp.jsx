@@ -2,6 +2,8 @@ import { useState } from "react";
 import PopupElement from "../popup-element/PopupElement";
 import "./filterPopUp.css";
 import {allCities, allStates} from "../../pages/rides/Logic";
+import rideData from "../../data/rideData";
+import FilterDropDown from "../filterDropDown/FilterDropDown";
 function FilterPopUp(props) {
     const [stateDrop, setStateDrop] = useState(false);
     const [cityDrop, setCityDrop] = useState(false);
@@ -28,18 +30,24 @@ function FilterPopUp(props) {
             Filters
         </div>
         <hr />
+
         <div className="state" onClick={handleStateDrop}>
-            State <i class={stateDrop?"fas fa-caret-up caret":"fas fa-caret-down caret"}></i>
-            {/* <div>
-                <ul>
-                <li>Hello</li>
-                <li>Hi</li>
-                <li>Bye</li>
-                </ul>
-            </div> */}
+            State <i className={stateDrop?"fas fa-caret-up caret":"fas fa-caret-down caret"}></i>
+            <div className="dropdown-container">
+                {rideData.map(singleState=>{
+                    <FilterDropDown stateName={singleState.state}/>
+                })}
+            </div>
         </div>
+
         <div className="state" onClick={handleCityDrop}>
-            City  <i class={cityDrop?"fas fa-caret-up caret":"fas fa-caret-down caret"}></i>
+            City  <i className={cityDrop?"fas fa-caret-up caret":"fas fa-caret-down caret"}></i>
+            <div className="dropdown-container">
+                
+                {rideData.map(singleCity=>{ 
+                     return singleCity.city
+                })}
+            </div>
         </div>
     </div>
   )
